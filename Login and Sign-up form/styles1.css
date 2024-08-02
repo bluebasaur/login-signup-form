@@ -1,0 +1,93 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(a56806bce812d4ec85665792d83b809b.jpg);
+    background-size: cover;
+}
+
+.form-container {
+    box-sizing: border-box;
+    margin: 10% 35% 30% 35%;
+    padding: 50px;
+    border-radius: 5%;
+    background-color: rgba(46, 127, 180, 0.4); 
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 70px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    display: block;
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+    display: inline;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: #9adbf1;
+}
+
+a:hover {
+    cursor: pointer;
+    background-color: #1e404c;
+}
+
+.forgot-password {
+    padding-bottom: 30px;
+}
+
+button {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(0deg, rgba(69,116,189,1) 22%, rgba(50,140,171,1) 81%);
+}
+
+button:hover, .submit:hover {
+    cursor: pointer;
+    background: linear-gradient(0deg, rgba(33,73,133,1) 22%, rgba(29,105,131,1) 81%);
+}
+
+.submit {
+    display: block;
+    width: 102%;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 16px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(0deg, rgba(69,116,189,1) 22%, rgba(50,140,171,1) 81%);
+}
